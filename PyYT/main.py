@@ -13,5 +13,3 @@ class Main:
     def start(self) -> videoInfo:
         r = self.r()
         return r
-r = Main("https://www.youtube.com/watch?v=BaI0tiwrKYk").start
-print("Thumbnail: {0}\nTitle: {1}\nViews: {2}\nChannel: {3}\nLikes: {4}\nDate: {5}".format(r.video.thumbnail, r.video.title, r.video.views, r.channel.name, r.video.likes, ", ".join(r.video.date)))
