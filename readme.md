@@ -7,5 +7,5 @@
 import PyYT
 
 api = PyYT.Main("url")
+# Main(url, type<optional, only video>)
 ```
-### Main(url, type<optional, only video>)
