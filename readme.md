@@ -17,11 +17,21 @@ api.channel
 api.video
 
 # Propertys
-api.channel.name
-api.video.title
-api.video.thumbnail
-api.video.likes
-api.video.views
+#channel
+api.channel.name # channel name
+
+# video
+api.video.thumbnail,
+api.video.title,
+api.video.views,
+api.video.likes,
 api.video.date
+api.video.embed,
+api.video.descapiiption,
+api.video.genapie,
+api.video.duapiation,
+api.video.id,
+api.video.comments.size,
+api.video.allowedRegions
 
 ```
