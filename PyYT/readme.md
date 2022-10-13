@@ -21,10 +21,17 @@ api.video
 api.channel.name # channel name
 
 # video
-api.video.title #video title
-api.video.thumbnail #video thumbnailg
-api.video.likes #video likes count
-api.video.views #video views
-api.video.date #video upload date (list)
+api.video.thumbnail,
+api.video.title,
+api.video.views,
+api.video.likes,
+api.video.date
+api.video.embed,
+api.video.descapiiption,
+api.video.genapie,
+api.video.duapiation,
+api.video.id,
+api.video.comments.size,
+api.video.allowedRegions
 
 ```
