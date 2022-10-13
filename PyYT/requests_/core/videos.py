@@ -19,7 +19,7 @@ class Video:
                 if r.status_code == 200:
                     rounds +=1
                     j = json.loads("".join("".join(i.getText().split("=")[1:]).split(";")[:-1]))
-                    return videoInfo(intialdata=j)
+                    return videoInfo(intialdata=j, bs4=s)
                 else:
                     raise PageNotFound404("{0} video dont found".format(self.url))
         if round == 0: return videoInfo()
