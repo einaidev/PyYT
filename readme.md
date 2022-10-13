@@ -27,9 +27,9 @@ api.video.views,
 api.video.likes,
 api.video.date
 api.video.embed,
-api.video.descapiiption,
-api.video.genapie,
-api.video.duapiation,
+api.video.description,
+api.video.genere,
+api.video.duration,
 api.video.id,
 api.video.comments.size,
 api.video.allowedRegions
